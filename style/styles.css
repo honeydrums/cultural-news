@@ -1,0 +1,363 @@
+body {
+	max-width: 1440px;
+	min-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+
+	color: hsl(0, 0%, 0%);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+
+	background-color: hsl(0, 0%, 100%);
+}
+
+.visually-hidden {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.main-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-header a {
+	text-decoration: none;
+}
+
+.main-header__title {
+	margin: 60px 0 0;
+
+	color: hsl(0, 0%, 0%);
+	
+
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+}
+
+/**/
+
+.main-nav {
+}
+
+.main-nav__list {
+	display: flex;
+	flex-direction: row;
+
+	margin: 47px 0;
+	padding: 0;
+	
+	list-style: none;
+}
+
+.main-nav__list-item {
+	padding: 0 25px;
+
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.main-nav__list-item a {
+	color: hsla(0, 0%, 0%);
+}
+
+.main-nav__list-item a:hover {
+	color: hsla(0, 0%, 0%, 0.6);
+}
+
+/**/
+
+.underwater-hotel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 464px;
+
+	background-image: url('../img/Hotel-11.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.underwater-hotel__pic {
+	width: 55px;
+	height: 55px;
+	margin-top: 46px;
+	margin-bottom: 32px;
+
+	background-repeat: no-repeat;
+	background-image: url('../img/underwater-icon.png');
+}
+
+.underwater-hotel__title {
+	margin: 0 0 120px 0;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: hsl(0, 0%, 100%);
+}
+
+.underwater-hotel__text {
+	width: 456px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+
+	text-align: center;
+	color: hsl(0, 0%, 100%);
+}
+
+/**/
+
+.reviews {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.reviews__title {
+	margin: 44px 0 20px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.reviews-blocks-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin: 0 75px 50px;
+}
+
+.reviews-block {
+	width: 370px;
+	margin: 0 10px;
+}
+
+.reviews-block__title {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+}
+
+.reviews-block__text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+/**/
+
+.season-tickets {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: #f7f7f7;
+	background-image: radial-gradient(circle closest-corner at 50% 50%, #fff 52%, transparent 50%);
+}
+
+.season-tickets__title {
+	margin: 33px 0 35px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.season-tickets__block-wrap {
+	width: 370px;
+	margin-bottom: 25px;
+
+	text-align: center;
+}
+
+.season-tickets__block-title {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+}
+
+.season-tickets__block-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+/* footer */
+
+.main-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: #575757;
+}
+
+.main-footer a {
+	text-decoration: none;
+}
+
+.main-footer__title {
+	margin: 36px 0 0;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 37px;
+
+	letter-spacing: 1px;
+
+	color: hsl(0, 0%, 100%);
+}
+
+.footer-nav__list-item {
+	padding: 0 25px;
+    text-transform: uppercase;
+
+	list-style: none;
+	cursor: pointer;
+}
+
+.footer-nav__list-item a {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 2px;
+
+	color: hsl(0, 0%, 100%);
+}
+
+.footer-nav__list-item a:hover {
+	color: hsla(0, 0%, 0%, 0.6);
+}
+
+.footer-nav__list {
+	display: flex;
+	flex-direction: row;
+	margin: 47px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-social {
+	display: flex;
+	justify-content: space-between;
+
+	width: 169px;
+
+	padding: 0;
+	margin: 0 0 42px;
+	list-style: none;
+}
+
+.footer-social__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 47px;
+	height: 47px;
+
+	background-color: #fff;
+}
+
+.footer-social__link:hover {
+	background-color: #FF7931;
+}
+
+.footer-social__link:hover path,
+.footer-social__link:focus path {
+	fill: #fff;
+}
+
+/*ссылка 'смотреть' */
+
+.season-tickets__button-wrap {
+	width: 170px;
+	height: 47px;
+
+	margin-bottom: 86px;
+
+	text-align: center;
+
+	background-color: hsl(21, 100%, 60%);
+}
+
+.season-tickets__button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 0 25px;
+
+	position: relative;
+	top: 25%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #fff;
+}
+
+.season-tickets__button:after {
+	content: "";
+	width: 24px;
+	height: 25px;
+
+	background-image: url('../img/arrow_forward.svg');
+}
